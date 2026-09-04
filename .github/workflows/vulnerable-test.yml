@@ -27,6 +27,7 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha || github.ref }}
           fetch-depth: 0
+          allow-unsafe-pr-checkout: true
 
       - name: run local action from fork
         uses: "./.github/actions/step_merge_main"

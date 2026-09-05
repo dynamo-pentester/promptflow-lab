@@ -1,2 +1,2 @@
 # promptflow-lab
-Security research lab — testing pwn-request vulnerability pattern.
+Security research lab — pwn-request vulnerability PoC.
